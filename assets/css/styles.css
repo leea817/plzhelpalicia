@@ -195,19 +195,13 @@ a {
 
 	.ppt3 {
 		position: absolute;
-		top: 33%;
+		top: 40%;
 		left: 57%;
 		transform: translate(-50%,0%);
 	}
 	.mock3 {
 		position: absolute;
-		top: 50%;
-		left: 57%;
-		transform: translate(-50%,0%);
-	}
-	.link3 {
-		position: absolute;
-		top: 67%;
+		top: 59%;
 		left: 57%;
 		transform: translate(-50%,0%);
 	}
@@ -217,10 +211,42 @@ a {
 	margin-top: 40px;
 }
 
+	.column {
+		position: absolute;
+		top: 50%;
+		left: 45%;
+		transform: translate(-50%,0%);
+	}
+
 .labwork {
 	margin-left: 16.66%;
 	margin-top: 40px;
 }
+
+	.bor {
+		position: absolute;
+		top: 25%;
+		left: 57%;
+		transform: translate(-50%,0%);
+	}
+	.animation {
+		position: absolute;
+		top: 42%;
+		left: 57%;
+		transform: translate(-50%,0%);
+	}
+	.drawing {
+		position: absolute;
+		top: 59%;
+		left: 57%;
+		transform: translate(-50%,0%);
+	}
+	.typography {
+		position: absolute;
+		top: 76%;
+		left: 57%;
+		transform: translate(-50%,0%);
+	}
 
 
 

@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Page Title</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--<link rel="icon" href="favicon.png">-->
+        <!-- Place favicon.ico in the root directory -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,500,700" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/main.css">
+        <!--<script src="js/your-file.js"></script>-->
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class ="header">
+                <a href="#" id="nav-toggle"></a>
+                <ul class="nav col content-center" id="mobile-nav"> 
+                    <!-- wont abide by the col and content-center
+                        rules until you give the class a width-->
+                    <a href="#"> <li>Home</li> </a>
+                    <a href="#"> <li>Articles</li> </a>
+                    <a href="#"> <li>About</li> </a>
+                    <a href="#"> <li>Contact</li> </a>
+                </ul>
+            </div>
+            <div class="hero col col-12">
+                <h1 class="col col-8">This is my awesome Article title that can wrap to multiple lines</h1>
+            </div>
+            <div class="meta col col-2 col-t-3">
+                <!--on tablet, go to three columns-->
+                <ul>
+                    <li>By Felix McKitten</li>
+                    <li>March 9, 2017</li>
+                    <li>In: Articles</li>
+                    <li>Tags: Cats, Fuzzy</li>
+                </ul>
+            </div>
+            <div class="content col col-6 col-t-8">
+                <h2>A kitten, also known as a kitty or kitty cat, is a juvenile cat. After being born, kittens are totally dependent on their mother for survival and they do not normally open their eyes until after 7 to 10 days.</h2>
+                <p>After about two weeks, kittens quickly develop and begin to explore the world outside the nest. After a further three to four weeks, they begin to eat solid food and grow adult teeth. Domestic kittens are highly social animals and enjoy human companionship.</p>
+                <p>The word "kitten" derives from the Middle English word kitoun, which in turn came from the Old French chitoun or cheton.[1] Juvenile big cats are called "cubs" rather than kittens; either term may be used for the young of smaller wild felids, such as ocelots, caracals and lynx, but "kitten" is usually more common for these species.[2]</p>
+
+            </div>
+
+        <img class="content-center col col 10" src="img/yarn.jpg">
+        <div class="content content-center col col-6 col-t-8">
+            <p>After about two weeks, kittens quickly develop and begin to explore the world outside the nest. After a further three to four weeks, they begin to eat solid food and grow adult teeth. Domestic kittens are highly social animals and enjoy human companionship.</p>
+            <p>The word "kitten" derives from the Middle English word kitoun, which in turn came from the Old French chitoun or cheton.[1] Juvenile big cats are called "cubs" rather than kittens; either term may be used for the young of smaller wild felids, such as ocelots, caracals and lynx, but "kitten" is usually more common for these species.[2]</p>
+        </div>
+
+        <blockquote class="content-center col col-8">"After about two weeks, kittens quickly develop and begin to explore the world outside the nest. </blockquote>
+
+        <div class=" content content-center col col-6 col-t-8">
+            <p>After about two weeks, kittens quickly develop and begin to explore the world outside the nest. After a further three to four weeks, they begin to eat solid food and grow adult teeth. Domestic kittens are highly social animals and enjoy human companionship.</p>
+            <p>The word "kitten" derives from the Middle English word kitoun, which in turn came from the Old French chitoun or cheton.[1] Juvenile big cats are called "cubs" rather than kittens; either term may be used for the young of smaller wild felids, such as ocelots, caracals and lynx, but "kitten" is usually more common for these species.[2]</p>
+        </div>
+     </div>
+
+        <div class="grid-base">
+            <div class="col col-1"></div>
+            <div class="col col-1"></div>
+            <div class="col col-1"></div>
+            <div class="col col-1"></div>
+            <div class="col col-1"></div>
+            <div class="col col-1"></div>
+            <div class="col col-1"></div>
+            <div class="col col-1"></div>
+            <div class="col col-1"></div>
+            <div class="col col-1"></div>
+            <div class="col col-1"></div>
+            <div class="col col-1"></div>
+            
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+        </script>
+        <!--<script  src="js/index.js"></script>-->
+        <script>
+        $( "#nav-toggle" ).click(function() {
+          $( "#mobile-nav" ).toggleClass( "show-nav" );
+          $( this ).toggleClass( "close-menu" );
+        });
+        </script>
+
+    </body>
+</html>

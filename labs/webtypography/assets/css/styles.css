@@ -1,0 +1,97 @@
+/*BASE*/
+body {
+	background-color: #20659C;
+	margin: 0;
+}
+
+.wrapper {
+	margin: 0;
+	/*width: 100%;
+	height: 1570px;
+	position: absolute;*/
+}
+
+
+.blackboxborder {
+	margin: 0 auto;
+	width: 750px;
+	height: 1570px;
+	background-color: #000;
+}
+
+.whitebox {
+	margin: 0 auto;
+	width: 712px;
+	height: 1570px;
+	z-index: 2;
+	background-color: #D8C8A9;
+}
+
+
+/*ELEMENTS*/
+
+.logo {
+	position: absolute;
+	top: 109px;
+	left: 780px;
+}
+.line1 {
+	position: absolute;
+	top: 170px;
+	left: 500px;
+}
+
+.line2 {
+	position: absolute;
+	top: 860px;
+	left: 500px;
+}
+.description {
+	position: absolute;
+	text-align: center;
+	font-size: 24px;
+	top: 600px;
+	left: 594px;
+}
+.red {
+	position: absolute;
+	top: 830px;
+	left: 790px;
+}
+.initials1 {
+	position: absolute;
+	font-size: 42px;
+	top: 1370px;
+	left: 474px;
+
+}
+.initials2 {
+	position: absolute;
+	font-size: 42px;
+	top: 1378px;
+	left: 500px;
+
+
+}
+
+/*TYPOGRAPHY*/
+
+.vertical-text-1 {
+	font-family: 'Audiowide', cursive;
+	font-size: 140px;
+	letter-spacing: 2px;
+	margin-left: -1150px;
+	margin-top: -1656px;
+	transform: rotate(-90deg);
+}
+
+.vertical-text-2 {
+	font-family: 'Audiowide', cursive;
+	font-size: 140px;
+	letter-spacing: 2px;
+	transform: rotate(90deg);
+	margin-top: -660px;
+	margin-left: 1150px;
+
+}
+

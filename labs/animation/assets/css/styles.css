@@ -1,0 +1,95 @@
+
+
+.shake {
+	font-family: 'Open Sans';
+	font-size: 4em;
+	color: #00789D;
+	text-align: center;
+	animation: shake 5s infinite;
+}
+.shake-ease {
+	font-family: 'Open Sans';
+	font-size: 4em;
+	color: #00789D;
+	text-align: center;
+	animation: shake 5s infinite;
+	animation-timing-function: ease-in-out;
+}
+
+.shake-bezier {
+	font-family: 'Open Sans';
+	font-size: 4em;
+	color: #00789D;
+	text-align: center;
+	animation: shake 5s infinite cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+
+@keyframes shake {
+    from, to {
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+    
+    10%, 30%, 50%, 70%, 90% {
+         -webkit-transform: translate3d(-10px,0,0);
+        transform: translate3d(-10px,0,0);
+    }
+    
+     20%, 40%, 60%, 80% {
+         -webkit-transform: translate3d(10px,0,0);
+        transform: translate3d(10px,0,0);
+    }
+}
+
+.box {
+	border-style: solid;
+	border-width: 1px;
+	display: block;
+	width: 100px;
+	height: 100px;
+	background-color: #0000FF;
+	transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.box:hover {
+	background-color: #FFCCCC;
+	width: 200px;
+	height: 200px;
+	transform: rotate(180deg);
+}
+
+
+.zoom-box {
+	border-style: solid;
+	border-width: 1px;
+	display: block;
+	width: 100px;
+	height: 100px;
+	background-color: #0000FF;
+	animation: zoom 5s infinite;
+}
+
+@keyframes zoom {
+	0% {
+		transform: scale(0.1);
+		opacity: 0;
+	}
+	60% {
+		transform: scale(1.2);
+		opacity: 1;
+		color: #ed8f9f;
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+
+/*	
+you can put it all on one line: animation:__________;
+		animation: [animation-name];
+		[animation-duration] [animation-timing-function]
+		[animation-delay] [animation-iteration-count]
+		[animation-direction]
+		[animation-fill-mode] [animation-play-state];
+*/

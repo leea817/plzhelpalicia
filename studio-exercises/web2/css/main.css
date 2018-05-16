@@ -1,0 +1,347 @@
+/*Main Stylesheet*/
+
+/*Overall*/
+
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+
+/*Typography*/
+h1{
+		/* This is my awesome A: */
+	font-family: 'Roboto', sans-serif;
+	font-size: 48px;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 0;
+	line-height: 1.1;1
+	/*instead of a pixel size, 
+	its often nicde to use a ratio for text.*/
+/* This is my awesome A: */
+}
+
+h2{
+font-size: 27px;
+font-weight: 500;
+color: #000000;
+letter-spacing: 0;
+line-height: 1.3;
+margin-top: 20px 0 20px 0;
+}
+
+
+p{
+font-size: 17px;
+font-weight: 300;
+color: #000000;
+letter-spacing: 0;
+line-height: 1.4;
+margin-bottom: 20px;
+}
+
+blockquote {
+	/* After about two week: */
+	font-weight: 500;
+	font-size: 48px;
+	color: #000000;
+	letter-spacing: 0;
+	line-height: 1.2;
+	/*to fix hanging quotes:*/;
+	text-indent: -12px;
+}
+
+
+/*Layout*/
+
+.grid-base {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.grid-base .col {
+	height: 3000px;
+}
+
+.col {
+	border: 2px dashed rgba(255,0,0,0.3);
+	display: inline-block;
+	float: left;
+	/* go to the left/right of the next object 
+	if there is space for you to go*/
+	padding: 20px;
+
+}
+
+.col-1 {
+	width: 8.33%;
+}
+
+.col-2 {
+	width: 16.66%;
+}
+
+.col-3{
+    width:25%;
+}
+
+.col-4{
+    width:33.33%;
+}
+.col-5{
+    width:41.66%;
+}
+.col-6{
+    width:50%;
+}
+
+.col-7{
+    width:58.33%;
+}
+
+.col-8{
+    width:66.66%;
+}
+
+.col-9{
+    width:75%;
+}
+
+.col-10{
+    width:83.33%;
+}
+
+.col-11{
+    width:91.66%;
+}
+
+.col-12{
+    width:100%;
+}
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.header {
+	height: 60px;
+}
+
+#nav-toggle {
+	display: block;
+    background: url("../img/menu.svg");
+    /*this is the size of the background*/
+    width: 60px;
+    height:60px;
+
+    background-size: 60px 60px;
+    display: none; /*display none overrides the previous
+    display block because for now we want it to be none
+    and be block when it goes under 600px*/
+}
+
+.nav {
+	width: 400px;
+}
+
+.nav li {
+	display: inline;
+	/* inline-block places elements next to each other 
+	but fills up entire space
+	inline sort of does both but not so much take entire space*/
+	padding: 15px;
+	/* they are links, and they will be clickable in the space
+	of the padding as well*/
+}
+
+.nav a{
+	color: #393D3C;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1px;
+	text-decoration: none; /*removes underline from links*/
+}
+
+/*although we are targetting the links, we need to change the 
+hover style of the list items*/
+.nav li:hover {
+	color: #50E3C2;
+}
+
+.hero {
+	/*pull image RELATIVE to this css file. 
+	so you have to go back a level and go into the img level*/
+	background-image: url("../img/hero.jpg");
+	height: 40%;
+	position: center;
+	background-size: cover;
+	/*i want you to fill the every available 
+	space with the image*/
+}
+
+/*this is a secret hack on how to center horizontally and vertically*/
+.hero h1 {
+	position: relative;
+    left:50%;
+    top:50%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+.meta{
+	margin-left: 8.33%;
+	margin-top: 180px;
+}
+
+.meta li {
+	list-style: none;
+	border: 1px solid #E8E8E8;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	color: #000000;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	padding: 7px 0 7px 0
+	/*top right bottom left*/
+}
+
+
+
+.content-center {
+	margin: 0 auto;
+	float: none;
+	display: block;
+}
+
+/*up into a 1000 pixels, do the following.
+*/
+@media screen and (max-width: 1000px){  
+/*tablet settings*/
+
+	.col-t-1 {width: 8.33%;}
+    .col-t-2 {width: 16.66%;}
+    .col-t-3 {width: 25%;}
+    .col-t-4 {width: 33.33%;}
+    .col-t-5 {width: 41.66%;}
+    .col-t-6 {width: 50%;}
+    .col-t-7 {width: 58.33%;}
+    .col-t-8 {width: 66.66%;}
+    .col-t-9 {width: 75%;}
+    .col-t-10 {width: 83.33%;}
+    .col-t-11 {width: 91.66%;}
+    .col-t-12 {width: 100%;}
+	
+	.meta {
+		margin-left: 0px;
+	}
+	.content.content-center {
+		margin-left: 25%;
+		float: left;
+	}
+}
+
+@media screen and (max-width: 660px){  
+/*mobile settings*/
+	h1{
+        font-size: 36px;
+    }
+
+    h2{
+        margin: 0 0 20px;
+        font-size: 24px;
+    }
+
+    blockquote{
+        font-size: 24px;
+    }
+	.col {
+    width:100%;
+    border: 1px dashed rgba(255,0,0,0.3);
+    display: inline-block;
+    }
+
+    #nav-toggle {
+		display: block;
+		margin-left: 25px;
+    }
+
+    #nav-toggle.close-menu {
+	display: block;
+    background: url("../img/menu-close.svg");
+    /*this is the size of the background*/
+    width: 60px;
+    height:60px;
+    background-size: 60px 60px;
+	}
+
+    #mobile-nav{
+        height:0;
+        display: none;
+    }
+
+    #mobile-nav.show-nav{
+        height:400px;
+        display: block;
+        position: absolute;
+        z-index: 3;
+        background: #fff;
+    }
+
+    .nav {
+    	background-color: #fff;
+    }
+
+    .nav li{
+    	display: block;
+    }
+
+    .meta {
+    	margin-top: 0px;
+    }
+	.content.content-center {
+		margin-left: 0%;
+	}
+	.meta li{
+        font-size: 11px;
+        width: 40%;
+        float: left;
+        margin-right: 10%; 
+    }
+
+    .meta li:nth-child(even){
+        margin-right: 0;
+        /*only want 10-% margin on odd ones, not even ones*/
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
