@@ -1,0 +1,27 @@
+* {
+	padding-top: 18px;
+}
+
+body {
+	background-color: #899679;
+}
+
+.wrapper {
+	/*margin-left: 5px;*/
+	width:978px;
+	margin: 0 auto;
+}
+
+.mirror {
+	width: 556px;
+	margin: 0 auto;
+	/*display: flex;
+	align-items: center;
+	justify-content: center;*/
+}
+
+.textcontainer {
+	width: 492px;
+	margin: 0 auto;
+	margin-top: 13px;
+}

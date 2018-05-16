@@ -1,0 +1,109 @@
+body {
+	margin: 0;
+	background-color: #CF8481;
+	align-content: center;
+}
+
+.wrapper {
+	width: 100%;
+}
+
+.page {
+	width: 1300px;
+	display: block;
+	margin: 0 auto;
+}
+
+.page > .poster {
+	position: absolute;
+	margin: auto;
+}
+
+#lipstick {
+		position: relative;
+		width: 100%;
+}
+
+#backbutton {
+	position: absolute;
+	width: 103px;
+	height: 90px;
+	top: 13px;
+	left: 33px;
+	/*border-width: 1px;
+	border-style: solid;
+	border-color: black;*/
+}
+
+
+
+
+
+.gone {opacity: 0;}
+.show {opacity: 1;}
+
+.light {
+	position: absolute;
+	width: 80px;
+	height: 160px;
+	top: 343px;
+	left: 602px;
+	/*border-width: 1px;
+	border-style: solid;
+	border-color: black;*/
+}
+
+.dark {
+	position: absolute;
+	width: 80px;
+	height: 160px;
+	top: 343px;
+	left: 695px;
+	/*border-width: 1px;
+	border-style: solid;
+	border-color: black;*/
+}
+
+.mix {
+	position: absolute;
+	width: 80px;
+	height: 160px;
+	top: 343px;
+	left: 799px;
+	/*border-width: 1px;
+	border-style: solid;
+	border-color: black;*/
+}
+
+.tag {
+	position: absolute;
+	top: -4px;
+	left: 280px;
+	transition:opacity 0.2s linear;
+}
+
+.one {
+	position: absolute;
+	top: 502px;
+	left: 642px;
+	transition:opacity 0.3s linear;
+}
+
+.two {
+	position: absolute;
+	top: 502px;
+	left: 732px;
+	transition:opacity 0.3s linear;
+}
+
+.three {
+	position: absolute;
+	top: 502px;
+	left: 822px;
+	transition:opacity 0.3s linear;
+}
+
+
+.space, .tag, .title { opacity: 0; }
+.space.show, .tag.show, .title.show { opacity: 1; }
+

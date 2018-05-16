@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+	background-color: #CF8481;
+	align-content: center;
+}
+
+.wrapper {
+	width: 100%;
+}
+
+.page {
+	width: 1300px;
+	display: block;
+	margin: 0 auto;
+}
+
+.page > .poster {
+	position: absolute;
+	margin: auto;
+}
+
+#perfume {
+		position: relative;
+		width: 100%;
+}
+
+#backbutton {
+	position: absolute;
+	width: 103px;
+	height: 90px;
+	top: 13px;
+	left: 33px;
+	/*border-width: 1px;
+	border-style: solid;
+	border-color: black;*/
+}
+
+
+
+.tag, .fog { opacity: 0; }
+.tag.show, .fog.show { opacity: 1; }
+
+
+.space {
+	position: absolute;
+	width: 132px;
+	height: 136px;
+	top: 189px;
+	left: 217px;
+	/*border-width: 1px;
+	border-style: solid;
+	border-color: black;*/
+}
+
+
+.tag {
+	position: absolute;
+	top: 30px;
+	left: 414px;
+	transition:opacity 0.2s linear;
+}
+
+.fog {
+	position: absolute;
+	width: 1000px;
+	top: 86px;
+	left: 522px;
+	transition:opacity 0.3s linear;
+}
+

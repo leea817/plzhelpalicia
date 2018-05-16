@@ -1,0 +1,71 @@
+body {
+	margin: 0;
+	background-color: #CF8481;
+	align-content: center;
+}
+
+.wrapper {
+	width: 100%;
+}
+
+.page {
+	width: 1300px;
+	display: block;
+	margin: 0 auto;
+}
+
+.page > .poster {
+	position: absolute;
+	margin: auto;
+}
+
+#cream {
+		position: relative;
+		width: 100%;
+}
+
+#backbutton {
+	position: absolute;
+	width: 103px;
+	height: 90px;
+	top: 13px;
+	left: 33px;
+	/*border-width: 1px;
+	border-style: solid;
+	border-color: black;*/
+}
+
+
+.tag, .minicream { opacity: 0; }
+.tag.show, .minicream.show { opacity: 1; }
+
+
+
+.space {
+	position: absolute;
+	width: 126px;
+	height: 75px;
+	top: 373px;
+	left: 730px;
+	z-index: 2;
+	/*border-width: 1px;
+	border-style: solid;
+	border-color: black;*/
+}
+
+
+.tag {
+	position: absolute;
+	top:130px;
+	left:62px;
+	transition:opacity 0.2s linear;
+}
+
+.minicream {
+	position: absolute;
+	top:147px;
+	left:646px;
+	z-index: 1;
+	transition:opacity 0.2s linear;
+}
+

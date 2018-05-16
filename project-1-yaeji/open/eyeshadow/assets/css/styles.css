@@ -1,0 +1,106 @@
+body {
+	margin: 0 auto;
+	background-color: #CF8481;
+}
+
+.wrapper {
+	width: 100%;
+}
+
+.page {
+	width: 1300px;
+	display: block;
+	margin: 0 auto;
+}
+
+.page > .poster {
+	position: absolute;
+	margin: auto;
+}
+
+#eyeshadow {
+		position: relative;
+		width: 100%;
+}
+
+#backbutton {
+	position: absolute;
+	width: 103px;
+	height: 90px;
+	top: 13px;
+	left: 33px;
+	/*border-width: 1px;
+	border-style: solid;
+	border-color: black;*/
+}
+
+
+.gone {opacity: 0;}
+.show {opacity: 1;}
+
+.light {
+	position: absolute;
+	width: 120px;
+	height: 100px;
+	top: 190px;
+	left: 142px;
+	/*border-width: 1px;
+	border-style: solid;
+	border-color: black;*/
+}
+
+.dark {
+	position: absolute;
+	width: 120px;
+	height: 100px;
+	top: 276px;
+	left: 299px;
+	/*border-width: 1px;
+	border-style: solid;
+	border-color: black;*/
+}
+
+.mix {
+	position: absolute;
+	width: 120px;
+	height: 100px;
+	top: 190px;
+	left: 461px;
+	/*border-width: 1px;
+	border-style: solid;
+	border-color: black;*/
+}
+
+.tag {
+	position: absolute;
+	top: -1px;
+	left: 767px;
+	transition:opacity 0.2s linear;
+}
+
+.one {
+	position: absolute;
+	top: 295px;
+	left: 1023px;
+	transition:opacity 0.3s linear;
+}
+
+.two {
+	position: absolute;
+	top: 295px;
+	left: 1023px;
+	transition:opacity 0.3s linear;
+}
+
+.three {
+	position: absolute;
+	top: 295px;
+	left: 1023px;
+	transition:opacity 0.3s linear;
+}
+
+
+.space, .tag, .title { opacity: 0; }
+.space.show, .tag.show, .title.show { opacity: 1; }
+
+

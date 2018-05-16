@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="979px" height="462px" viewBox="0 0 979 462" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Opened</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="279" y="-5.68434189e-14" width="246" height="435" rx="42"></rect>
+        <rect id="path-2" x="525" y="2.84217094e-14" width="246" height="435" rx="42"></rect>
+        <rect id="path-3" x="492" y="27" width="246" height="435" rx="42"></rect>
+        <rect id="path-4" x="733" y="27" width="246" height="435" rx="42"></rect>
+        <rect id="path-5" x="246" y="27" width="246" height="435" rx="42"></rect>
+        <rect id="path-6" x="0" y="27" width="246" height="435" rx="42"></rect>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-7">
+            <stop stop-color="#CF8484" offset="0%"></stop>
+            <stop stop-color="#D28891" offset="32.9878827%"></stop>
+            <stop stop-color="#D68C9D" offset="86.953836%"></stop>
+            <stop stop-color="#D78EA2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Copy" transform="translate(-134.000000, -181.000000)">
+            <g id="Opened" transform="translate(134.000000, 181.000000)">
+                <path d="M538.5,146.5 L757.5,146.5" id="Line-Copy-5" stroke="#D0868B" stroke-width="9" stroke-linecap="square"></path>
+                <path d="M522.5,283.5 L762.510416,283.5" id="Line-Copy-5" stroke="#D0868B" stroke-width="9" stroke-linecap="square"></path>
+                <path d="M283.5,100.5 L523.510416,100.5" id="Line-Copy-5" stroke="#D0868B" stroke-width="9" stroke-linecap="square"></path>
+                <path d="M283.5,208.5 L523.510416,208.5" id="Line-Copy-6" stroke="#D0868B" stroke-width="9" stroke-linecap="square"></path>
+                <path d="M283.5,313.5 L523.510416,313.5" id="Line-Copy-7" stroke="#D0868B" stroke-width="9" stroke-linecap="square"></path>
+                <g id="Rectangle-Copy-3" transform="translate(402.000000, 217.500000) rotate(180.000000) translate(-402.000000, -217.500000) ">
+                    <use fill-opacity="0.41" fill="#D48989" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#D78EA2" stroke-width="9" x="283.5" y="4.5" width="237" height="426" rx="42"></rect>
+                </g>
+                <g id="Rectangle-Copy-4" transform="translate(648.000000, 217.500000) rotate(180.000000) translate(-648.000000, -217.500000) ">
+                    <use fill-opacity="0.410750679" fill="#D48989" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <rect stroke="#D78EA2" stroke-width="9" x="529.5" y="4.5" width="237" height="426" rx="42"></rect>
+                </g>
+                <path d="M469.5,450.5 L506.5,422.5" id="Line-2-Copy-5" stroke="#D78EA2" stroke-width="9" stroke-linecap="square"></path>
+                <path d="M729.5,40.5 L752.5,21.5" id="Line-2" stroke="#D78EA2" stroke-width="13" stroke-linecap="square"></path>
+                <path d="M732.5,62.5 L763,30" id="Line-2-Copy-6" stroke="#D78EA2" stroke-width="5" stroke-linecap="square"></path>
+                <path d="M712,35 L744,10" id="Line-2-Copy-7" stroke="#D78EA2" stroke-width="5" stroke-linecap="square"></path>
+                <path d="M460,32 L492,7" id="Line-2-Copy-12" stroke="#D78EA2" stroke-width="5" stroke-linecap="square"></path>
+                <path d="M701,31 L733,6" id="Line-2-Copy-8" stroke="#D78EA2" stroke-width="3" stroke-linecap="square"></path>
+                <path d="M449,28 L481,3" id="Line-2-Copy-13" stroke="#D78EA2" stroke-width="3" stroke-linecap="square"></path>
+                <path d="M691,29 L723,4" id="Line-2-Copy-10" stroke="#D78EA2" stroke-width="1.5" stroke-linecap="square"></path>
+                <path d="M439,26 L471,1" id="Line-2-Copy-14" stroke="#D78EA2" stroke-width="1.5" stroke-linecap="square"></path>
+                <path d="M737.5,75.5 L769,40" id="Line-2-Copy-9" stroke="#D78EA2" stroke-width="3" stroke-linecap="square"></path>
+                <path d="M480.5,60.5 L512,25" id="Line-2-Copy-11" stroke="#D78EA2" stroke-width="3" stroke-linecap="square"></path>
+                <path d="M480.5,36.5 L503.5,17.5" id="Line-2-Copy" stroke="#D78EA2" stroke-width="13" stroke-linecap="square"></path>
+                <path d="M264.5,40.5 L301.5,10.5" id="Line-2-Copy-2" stroke="#D78EA2" stroke-width="9" stroke-linecap="square"></path>
+                <path d="M507.5,44.5 L542.5,13.5" id="Line-2-Copy-3" stroke="#D78EA2" stroke-width="9" stroke-linecap="square"></path>
+                <path d="M710.5,453.5 L747.5,425.5" id="Line-2-Copy-4" stroke="#D78EA2" stroke-width="9" stroke-linecap="square"></path>
+                <g id="Rectangle-Copy">
+                    <use fill-opacity="0.777202219" fill="#CF8484" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <rect stroke="#D78EA2" stroke-width="9" x="496.5" y="31.5" width="237" height="426" rx="42"></rect>
+                </g>
+                <g id="Rectangle-Copy-6">
+                    <use fill-opacity="0.777202219" fill="#CF8484" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    <rect stroke="#D78EA2" stroke-width="9" x="737.5" y="31.5" width="237" height="426" rx="42"></rect>
+                </g>
+                <g id="Rectangle-Copy-2" transform="translate(369.000000, 244.500000) rotate(180.000000) translate(-369.000000, -244.500000) ">
+                    <use fill-opacity="0.777202219" fill="#CF8484" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    <rect stroke="#D78EA2" stroke-width="9" x="250.5" y="31.5" width="237" height="426" rx="42"></rect>
+                </g>
+                <g id="Rectangle-Copy-5" transform="translate(123.000000, 244.500000) rotate(180.000000) translate(-123.000000, -244.500000) ">
+                    <use fill-opacity="0.777202219" fill="#CF8484" fill-rule="evenodd" xlink:href="#path-6"></use>
+                    <rect stroke="#D78EA2" stroke-width="9" x="4.5" y="31.5" width="237" height="426" rx="42"></rect>
+                </g>
+                <path d="M247.5,136.5 L487.510416,136.5" id="Line" stroke="#D78EA2" stroke-width="9" stroke-linecap="square"></path>
+                <path d="M491.5,182.5 L731.510416,182.5" id="Line-Copy-3" stroke="#D78EA2" stroke-width="9" stroke-linecap="square"></path>
+                <path d="M487.5,319.5 L727.510416,319.5" id="Line-Copy-4" stroke="#D78EA2" stroke-width="9" stroke-linecap="square"></path>
+                <path d="M246.5,349.5 L486.510416,349.5" id="Line-Copy-2" stroke="#D78EA2" stroke-width="9" stroke-linecap="square"></path>
+                <path d="M247.5,244.5 L487.510416,244.5" id="Line-Copy" stroke="#D78EA2" stroke-width="9" stroke-linecap="square"></path>
+                <path d="M251.5,128.5 L281.5,99.5" id="Line-3" stroke="url(#linearGradient-7)" stroke-width="9" stroke-linecap="square"></path>
+                <path d="M497.5,174.5 L527.5,145.5" id="Line-3-Copy-3" stroke="url(#linearGradient-7)" stroke-width="9" stroke-linecap="square"></path>
+                <path d="M497.5,313.5 L527.5,284.5" id="Line-3-Copy-4" stroke="url(#linearGradient-7)" stroke-width="9" stroke-linecap="square"></path>
+                <path d="M252.5,238.5 L282.5,209.5" id="Line-3-Copy" stroke="url(#linearGradient-7)" stroke-width="9" stroke-linecap="square"></path>
+                <path d="M252.5,347.5 L282.5,318.5" id="Line-3-Copy-2" stroke="url(#linearGradient-7)" stroke-width="9" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

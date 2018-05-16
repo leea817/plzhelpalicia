@@ -1,0 +1,224 @@
+body {
+	display: block;
+	height: 1000px;
+}
+
+/*layout*/
+
+.grid-base {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.grid-base .col {
+	height: 1000px;
+}
+
+.col {
+	/*border: 2px dashed rgba(255,0,0,0.3);*/
+	width: 100%;
+	/* go to the left/right of the next object 
+	if there is space for you to go*/
+	/*padding: 20px;*/
+
+}
+
+.col-1 {
+	width: 8.33%;
+}
+
+.col-2 {
+	width: 16.66%;
+}
+
+.col-3{
+    width:25%;
+}
+
+.col-4{
+    width:33.33%;
+}
+.col-5{
+    width:41.66%;
+}
+.col-6{
+    width:50%;
+}
+
+.col-7{
+    width:58.33%;
+}
+
+.col-8{
+    width:66.66%;
+}
+
+.col-9{
+    width:75%;
+}
+
+.col-10{
+    width:83.33%;
+}
+
+.col-11{
+    width:91.66%;
+}
+
+.col-12{
+    width:100%;
+}
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+#bgVideo {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: 1;
+}
+
+.logo {
+	padding: 20px;
+	position: relative;
+	margin-left: 41.66%;
+	padding-top: 53px;
+}
+
+.logo img {
+	position: relative;
+	max-height: 100%;
+	max-width: 100%
+}
+
+.professors {
+	font-style: italic;
+}
+
+.professors a:hover {
+	color: #CE2B2B;
+}
+
+.circ {
+	position: relative;
+}
+
+.circ img {
+	position: relative;
+	max-height: 100%;
+	max-width: 100%
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,0%);
+}
+
+a {
+	color: #F3F9FE;
+	text-decoration: none;
+	letter-spacing: 1.5px;
+}
+
+.circ a {
+	color: #DD6464;
+}
+.circ a:hover{
+	color: #EFBFBF;
+}
+
+
+.proj1 {
+	margin-left: 16.66%;
+	margin-top: 40px;
+}
+
+.ppt1 {
+	position: absolute;
+	top: 33%;
+	left: 57%;
+	transform: translate(-50%,0%);
+}
+.mock1 {
+	position: absolute;
+	top: 50%;
+	left: 57%;
+	transform: translate(-50%,0%);
+}
+.link1 {
+	position: absolute;
+	top: 67%;
+	left: 57%;
+	transform: translate(-50%,0%);
+}
+
+
+.proj2 {
+	margin-left: 58.33%;
+	margin-top: 40px;
+}
+
+.ppt2 {
+	position: absolute;
+	top: 33%;
+	left: 43%;
+	transform: translate(-50%,0%);
+}
+.mock2 {
+	position: absolute;
+	top: 50%;
+	left: 43%;
+	transform: translate(-50%,0%);
+}
+.link2 {
+	position: absolute;
+	top: 67%;
+	left: 43%;
+	transform: translate(-50%,0%);
+}
+
+.proj3 {
+	margin-left: 16.66%;
+	margin-top: 40px;
+}
+
+.ppt3 {
+	position: absolute;
+	top: 33%;
+	left: 57%;
+	transform: translate(-50%,0%);
+}
+.mock3 {
+	position: absolute;
+	top: 50%;
+	left: 57%;
+	transform: translate(-50%,0%);
+}
+.link3 {
+	position: absolute;
+	top: 67%;
+	left: 57%;
+	transform: translate(-50%,0%);
+}
+
+.last {
+	margin-left: 58.33%;
+	margin-top: 40px;
+}
+
+.meta{
+	margin-left: 8.33%;
+	margin-top: 180px;
+}
+
