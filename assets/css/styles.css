@@ -225,25 +225,31 @@ a {
 
 	.bor {
 		position: absolute;
-		top: 25%;
+		top: 27%;
 		left: 57%;
 		transform: translate(-50%,0%);
 	}
 	.animation {
 		position: absolute;
-		top: 42%;
+		top: 39%;
+		left: 57%;
+		transform: translate(-50%,0%);
+	}
+	.js-anim {
+		position: absolute;
+		top: 51%;
 		left: 57%;
 		transform: translate(-50%,0%);
 	}
 	.drawing {
 		position: absolute;
-		top: 59%;
+		top: 63%;
 		left: 57%;
 		transform: translate(-50%,0%);
 	}
 	.typography {
 		position: absolute;
-		top: 76%;
+		top: 75%;
 		left: 57%;
 		transform: translate(-50%,0%);
 	}
