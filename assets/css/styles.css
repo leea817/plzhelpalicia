@@ -144,24 +144,24 @@ a {
 	margin-top: 40px;
 }
 
-.ppt1 {
-	position: absolute;
-	top: 33%;
-	left: 57%;
-	transform: translate(-50%,0%);
-}
-.mock1 {
-	position: absolute;
-	top: 50%;
-	left: 57%;
-	transform: translate(-50%,0%);
-}
-.link1 {
-	position: absolute;
-	top: 67%;
-	left: 57%;
-	transform: translate(-50%,0%);
-}
+	.ppt1 {
+		position: absolute;
+		top: 33%;
+		left: 57%;
+		transform: translate(-50%,0%);
+	}
+	.mock1 {
+		position: absolute;
+		top: 50%;
+		left: 57%;
+		transform: translate(-50%,0%);
+	}
+	.link1 {
+		position: absolute;
+		top: 67%;
+		left: 57%;
+		transform: translate(-50%,0%);
+	}
 
 
 .proj2 {
@@ -169,53 +169,60 @@ a {
 	margin-top: 40px;
 }
 
-.ppt2 {
-	position: absolute;
-	top: 33%;
-	left: 43%;
-	transform: translate(-50%,0%);
-}
-.mock2 {
-	position: absolute;
-	top: 50%;
-	left: 43%;
-	transform: translate(-50%,0%);
-}
-.link2 {
-	position: absolute;
-	top: 67%;
-	left: 43%;
-	transform: translate(-50%,0%);
-}
+	.ppt2 {
+		position: absolute;
+		top: 33%;
+		left: 43%;
+		transform: translate(-50%,0%);
+	}
+	.mock2 {
+		position: absolute;
+		top: 50%;
+		left: 43%;
+		transform: translate(-50%,0%);
+	}
+	.link2 {
+		position: absolute;
+		top: 67%;
+		left: 43%;
+		transform: translate(-50%,0%);
+	}
 
 .proj3 {
 	margin-left: 16.66%;
 	margin-top: 40px;
 }
 
-.ppt3 {
-	position: absolute;
-	top: 33%;
-	left: 57%;
-	transform: translate(-50%,0%);
-}
-.mock3 {
-	position: absolute;
-	top: 50%;
-	left: 57%;
-	transform: translate(-50%,0%);
-}
-.link3 {
-	position: absolute;
-	top: 67%;
-	left: 57%;
-	transform: translate(-50%,0%);
-}
+	.ppt3 {
+		position: absolute;
+		top: 33%;
+		left: 57%;
+		transform: translate(-50%,0%);
+	}
+	.mock3 {
+		position: absolute;
+		top: 50%;
+		left: 57%;
+		transform: translate(-50%,0%);
+	}
+	.link3 {
+		position: absolute;
+		top: 67%;
+		left: 57%;
+		transform: translate(-50%,0%);
+	}
 
-.last {
+.exercises {
 	margin-left: 58.33%;
 	margin-top: 40px;
 }
+
+.labwork {
+	margin-left: 16.66%;
+	margin-top: 40px;
+}
+
+
 
 .meta{
 	margin-left: 8.33%;
